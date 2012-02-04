@@ -10,6 +10,7 @@
 		5B3BEEAF14DD3A52005111AB /* MEXcodeArchives.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEAE14DD3A52005111AB /* MEXcodeArchives.m */; };
 		5B3BEEB714DD3AE2005111AB /* MEXcodeArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEB614DD3AE2005111AB /* MEXcodeArchive.m */; };
 		5B3BEEBA14DD3B4A005111AB /* MEProvisioningProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEB914DD3B4A005111AB /* MEProvisioningProfile.m */; };
+		5B3BEEBE14DD4150005111AB /* MEMemoryMappedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEBD14DD4150005111AB /* MEMemoryMappedFile.m */; };
 		5BED8E8514DD37AD0087BFDE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED8E8414DD37AD0087BFDE /* Cocoa.framework */; };
 		5BED8E8F14DD37AD0087BFDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BED8E8D14DD37AD0087BFDE /* InfoPlist.strings */; };
 		5BED8E9114DD37AD0087BFDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BED8E9014DD37AD0087BFDE /* main.m */; };
@@ -39,6 +40,8 @@
 		5B3BEEB614DD3AE2005111AB /* MEXcodeArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXcodeArchive.m; sourceTree = "<group>"; };
 		5B3BEEB814DD3B4A005111AB /* MEProvisioningProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEProvisioningProfile.h; sourceTree = "<group>"; };
 		5B3BEEB914DD3B4A005111AB /* MEProvisioningProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEProvisioningProfile.m; sourceTree = "<group>"; };
+		5B3BEEBC14DD4150005111AB /* MEMemoryMappedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMemoryMappedFile.h; sourceTree = "<group>"; };
+		5B3BEEBD14DD4150005111AB /* MEMemoryMappedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMemoryMappedFile.m; sourceTree = "<group>"; };
 		5BED8E8014DD37AD0087BFDE /* xcarchitron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcarchitron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BED8E8414DD37AD0087BFDE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5BED8E8714DD37AD0087BFDE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -140,6 +143,8 @@
 				5BED8E9614DD37AD0087BFDE /* MEAppDelegate.h */,
 				5BED8E9714DD37AD0087BFDE /* MEAppDelegate.m */,
 				5BED8E9914DD37AE0087BFDE /* MainMenu.xib */,
+				5B3BEEBC14DD4150005111AB /* MEMemoryMappedFile.h */,
+				5B3BEEBD14DD4150005111AB /* MEMemoryMappedFile.m */,
 				5BED8E8B14DD37AD0087BFDE /* Supporting Files */,
 			);
 			path = xcarchitron;
@@ -289,6 +294,7 @@
 				5B3BEEAF14DD3A52005111AB /* MEXcodeArchives.m in Sources */,
 				5B3BEEB714DD3AE2005111AB /* MEXcodeArchive.m in Sources */,
 				5B3BEEBA14DD3B4A005111AB /* MEProvisioningProfile.m in Sources */,
+				5B3BEEBE14DD4150005111AB /* MEMemoryMappedFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

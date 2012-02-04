@@ -4,4 +4,45 @@
 
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
+
+
+// Block NSAssert in release build
+#ifndef DEBUG
+#ifndef NS_BLOCK_ASSERTIONS
+#warning Remember to define NS_BLOCK_ASSERTIONS in the release build config.
+#endif
+#endif
+
+// Programmatic breakpoints for both ARM (iOS device) and x86 (iOS simulator).
+#ifdef DEBUG
+#ifndef BREAKPOINT
+#define BREAKPOINT __asm__ volatile ("int3");
+#endif
+#else
+#ifndef BREAKPOINT
+#define BREAKPOINT 
+#endif
+#endif
+
+// Logging macros for removing NSLog from release build.
+#ifdef DEBUG
+#define DLOG(...) NSLog(__VA_ARGS__)
+#else
+#define DLOG(...) do { } while (0)
+#endif
+
+#ifdef DEBUG
+#define FLog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
+#else
+#define FLog(...) do { } while (0)
+#endif
+
+// A custom replacement for assert that triggers a programmatic breakpoint.
+#ifdef DEBUG
+#define DASSERT(x) {if (!(x)) BREAKPOINT;}
+#else
+#define DASSERT(x) 
+#endif
+
+
 #endif
