@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B3BEEAF14DD3A52005111AB /* MEXcodeArchives.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEAE14DD3A52005111AB /* MEXcodeArchives.m */; };
+		5B3BEEB714DD3AE2005111AB /* MEXcodeArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEB614DD3AE2005111AB /* MEXcodeArchive.m */; };
+		5B3BEEBA14DD3B4A005111AB /* MEProvisioningProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEB914DD3B4A005111AB /* MEProvisioningProfile.m */; };
 		5BED8E8514DD37AD0087BFDE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED8E8414DD37AD0087BFDE /* Cocoa.framework */; };
 		5BED8E8F14DD37AD0087BFDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BED8E8D14DD37AD0087BFDE /* InfoPlist.strings */; };
 		5BED8E9114DD37AD0087BFDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BED8E9014DD37AD0087BFDE /* main.m */; };
@@ -30,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B3BEEAD14DD3A52005111AB /* MEXcodeArchives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXcodeArchives.h; sourceTree = "<group>"; };
+		5B3BEEAE14DD3A52005111AB /* MEXcodeArchives.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXcodeArchives.m; sourceTree = "<group>"; };
+		5B3BEEB514DD3AE2005111AB /* MEXcodeArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXcodeArchive.h; sourceTree = "<group>"; };
+		5B3BEEB614DD3AE2005111AB /* MEXcodeArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXcodeArchive.m; sourceTree = "<group>"; };
+		5B3BEEB814DD3B4A005111AB /* MEProvisioningProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEProvisioningProfile.h; sourceTree = "<group>"; };
+		5B3BEEB914DD3B4A005111AB /* MEProvisioningProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEProvisioningProfile.m; sourceTree = "<group>"; };
 		5BED8E8014DD37AD0087BFDE /* xcarchitron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcarchitron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BED8E8414DD37AD0087BFDE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5BED8E8714DD37AD0087BFDE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -118,6 +127,12 @@
 				5BED8E9714DD37AD0087BFDE /* MEAppDelegate.m */,
 				5BED8E9914DD37AE0087BFDE /* MainMenu.xib */,
 				5BED8E8B14DD37AD0087BFDE /* Supporting Files */,
+				5B3BEEAD14DD3A52005111AB /* MEXcodeArchives.h */,
+				5B3BEEAE14DD3A52005111AB /* MEXcodeArchives.m */,
+				5B3BEEB514DD3AE2005111AB /* MEXcodeArchive.h */,
+				5B3BEEB614DD3AE2005111AB /* MEXcodeArchive.m */,
+				5B3BEEB814DD3B4A005111AB /* MEProvisioningProfile.h */,
+				5B3BEEB914DD3B4A005111AB /* MEProvisioningProfile.m */,
 			);
 			path = xcarchitron;
 			sourceTree = "<group>";
@@ -263,6 +278,9 @@
 			files = (
 				5BED8E9114DD37AD0087BFDE /* main.m in Sources */,
 				5BED8E9814DD37AD0087BFDE /* MEAppDelegate.m in Sources */,
+				5B3BEEAF14DD3A52005111AB /* MEXcodeArchives.m in Sources */,
+				5B3BEEB714DD3AE2005111AB /* MEXcodeArchive.m in Sources */,
+				5B3BEEBA14DD3B4A005111AB /* MEProvisioningProfile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +452,7 @@
 				5BED8EB414DD37AE0087BFDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BED8EB514DD37AE0087BFDE /* Build configuration list for PBXNativeTarget "xcarchitronTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +461,7 @@
 				5BED8EB714DD37AE0087BFDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
