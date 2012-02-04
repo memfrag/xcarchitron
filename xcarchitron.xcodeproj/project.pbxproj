@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BED8E8514DD37AD0087BFDE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED8E8414DD37AD0087BFDE /* Cocoa.framework */; };
+		5BED8E8F14DD37AD0087BFDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BED8E8D14DD37AD0087BFDE /* InfoPlist.strings */; };
+		5BED8E9114DD37AD0087BFDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BED8E9014DD37AD0087BFDE /* main.m */; };
+		5BED8E9514DD37AD0087BFDE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5BED8E9314DD37AD0087BFDE /* Credits.rtf */; };
+		5BED8E9814DD37AD0087BFDE /* MEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BED8E9714DD37AD0087BFDE /* MEAppDelegate.m */; };
+		5BED8E9B14DD37AE0087BFDE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BED8E9914DD37AE0087BFDE /* MainMenu.xib */; };
+		5BED8EA314DD37AE0087BFDE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED8EA214DD37AE0087BFDE /* SenTestingKit.framework */; };
+		5BED8EA414DD37AE0087BFDE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED8E8414DD37AD0087BFDE /* Cocoa.framework */; };
+		5BED8EAC14DD37AE0087BFDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BED8EAA14DD37AE0087BFDE /* InfoPlist.strings */; };
+		5BED8EAF14DD37AE0087BFDE /* xcarchitronTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BED8EAE14DD37AE0087BFDE /* xcarchitronTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BED8EA514DD37AE0087BFDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BED8E7714DD37AD0087BFDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BED8E7F14DD37AD0087BFDE;
+			remoteInfo = xcarchitron;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BED8E8014DD37AD0087BFDE /* xcarchitron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcarchitron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BED8E8414DD37AD0087BFDE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5BED8E8714DD37AD0087BFDE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5BED8E8814DD37AD0087BFDE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5BED8E8914DD37AD0087BFDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BED8E8C14DD37AD0087BFDE /* xcarchitron-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "xcarchitron-Info.plist"; sourceTree = "<group>"; };
+		5BED8E8E14DD37AD0087BFDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BED8E9014DD37AD0087BFDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BED8E9214DD37AD0087BFDE /* xcarchitron-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xcarchitron-Prefix.pch"; sourceTree = "<group>"; };
+		5BED8E9414DD37AD0087BFDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5BED8E9614DD37AD0087BFDE /* MEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEAppDelegate.h; sourceTree = "<group>"; };
+		5BED8E9714DD37AD0087BFDE /* MEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEAppDelegate.m; sourceTree = "<group>"; };
+		5BED8E9A14DD37AE0087BFDE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5BED8EA114DD37AE0087BFDE /* xcarchitronTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcarchitronTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BED8EA214DD37AE0087BFDE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5BED8EA914DD37AE0087BFDE /* xcarchitronTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "xcarchitronTests-Info.plist"; sourceTree = "<group>"; };
+		5BED8EAB14DD37AE0087BFDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BED8EAD14DD37AE0087BFDE /* xcarchitronTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xcarchitronTests.h; sourceTree = "<group>"; };
+		5BED8EAE14DD37AE0087BFDE /* xcarchitronTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xcarchitronTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BED8E7D14DD37AD0087BFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BED8E8514DD37AD0087BFDE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BED8E9D14DD37AE0087BFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BED8EA314DD37AE0087BFDE /* SenTestingKit.framework in Frameworks */,
+				5BED8EA414DD37AE0087BFDE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BED8E7514DD37AD0087BFDE = {
+			isa = PBXGroup;
+			children = (
+				5BED8E8A14DD37AD0087BFDE /* xcarchitron */,
+				5BED8EA714DD37AE0087BFDE /* xcarchitronTests */,
+				5BED8E8314DD37AD0087BFDE /* Frameworks */,
+				5BED8E8114DD37AD0087BFDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BED8E8114DD37AD0087BFDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BED8E8014DD37AD0087BFDE /* xcarchitron.app */,
+				5BED8EA114DD37AE0087BFDE /* xcarchitronTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BED8E8314DD37AD0087BFDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BED8E8414DD37AD0087BFDE /* Cocoa.framework */,
+				5BED8EA214DD37AE0087BFDE /* SenTestingKit.framework */,
+				5BED8E8614DD37AD0087BFDE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BED8E8614DD37AD0087BFDE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BED8E8714DD37AD0087BFDE /* AppKit.framework */,
+				5BED8E8814DD37AD0087BFDE /* CoreData.framework */,
+				5BED8E8914DD37AD0087BFDE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5BED8E8A14DD37AD0087BFDE /* xcarchitron */ = {
+			isa = PBXGroup;
+			children = (
+				5BED8E9614DD37AD0087BFDE /* MEAppDelegate.h */,
+				5BED8E9714DD37AD0087BFDE /* MEAppDelegate.m */,
+				5BED8E9914DD37AE0087BFDE /* MainMenu.xib */,
+				5BED8E8B14DD37AD0087BFDE /* Supporting Files */,
+			);
+			path = xcarchitron;
+			sourceTree = "<group>";
+		};
+		5BED8E8B14DD37AD0087BFDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BED8E8C14DD37AD0087BFDE /* xcarchitron-Info.plist */,
+				5BED8E8D14DD37AD0087BFDE /* InfoPlist.strings */,
+				5BED8E9014DD37AD0087BFDE /* main.m */,
+				5BED8E9214DD37AD0087BFDE /* xcarchitron-Prefix.pch */,
+				5BED8E9314DD37AD0087BFDE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BED8EA714DD37AE0087BFDE /* xcarchitronTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BED8EAD14DD37AE0087BFDE /* xcarchitronTests.h */,
+				5BED8EAE14DD37AE0087BFDE /* xcarchitronTests.m */,
+				5BED8EA814DD37AE0087BFDE /* Supporting Files */,
+			);
+			path = xcarchitronTests;
+			sourceTree = "<group>";
+		};
+		5BED8EA814DD37AE0087BFDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BED8EA914DD37AE0087BFDE /* xcarchitronTests-Info.plist */,
+				5BED8EAA14DD37AE0087BFDE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BED8E7F14DD37AD0087BFDE /* xcarchitron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BED8EB214DD37AE0087BFDE /* Build configuration list for PBXNativeTarget "xcarchitron" */;
+			buildPhases = (
+				5BED8E7C14DD37AD0087BFDE /* Sources */,
+				5BED8E7D14DD37AD0087BFDE /* Frameworks */,
+				5BED8E7E14DD37AD0087BFDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xcarchitron;
+			productName = xcarchitron;
+			productReference = 5BED8E8014DD37AD0087BFDE /* xcarchitron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BED8EA014DD37AE0087BFDE /* xcarchitronTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BED8EB514DD37AE0087BFDE /* Build configuration list for PBXNativeTarget "xcarchitronTests" */;
+			buildPhases = (
+				5BED8E9C14DD37AE0087BFDE /* Sources */,
+				5BED8E9D14DD37AE0087BFDE /* Frameworks */,
+				5BED8E9E14DD37AE0087BFDE /* Resources */,
+				5BED8E9F14DD37AE0087BFDE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BED8EA614DD37AE0087BFDE /* PBXTargetDependency */,
+			);
+			name = xcarchitronTests;
+			productName = xcarchitronTests;
+			productReference = 5BED8EA114DD37AE0087BFDE /* xcarchitronTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BED8E7714DD37AD0087BFDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Martin Johannesson";
+			};
+			buildConfigurationList = 5BED8E7A14DD37AD0087BFDE /* Build configuration list for PBXProject "xcarchitron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BED8E7514DD37AD0087BFDE;
+			productRefGroup = 5BED8E8114DD37AD0087BFDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BED8E7F14DD37AD0087BFDE /* xcarchitron */,
+				5BED8EA014DD37AE0087BFDE /* xcarchitronTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BED8E7E14DD37AD0087BFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BED8E8F14DD37AD0087BFDE /* InfoPlist.strings in Resources */,
+				5BED8E9514DD37AD0087BFDE /* Credits.rtf in Resources */,
+				5BED8E9B14DD37AE0087BFDE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BED8E9E14DD37AE0087BFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BED8EAC14DD37AE0087BFDE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BED8E9F14DD37AE0087BFDE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BED8E7C14DD37AD0087BFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BED8E9114DD37AD0087BFDE /* main.m in Sources */,
+				5BED8E9814DD37AD0087BFDE /* MEAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BED8E9C14DD37AE0087BFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BED8EAF14DD37AE0087BFDE /* xcarchitronTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BED8EA614DD37AE0087BFDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BED8E7F14DD37AD0087BFDE /* xcarchitron */;
+			targetProxy = 5BED8EA514DD37AE0087BFDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BED8E8D14DD37AD0087BFDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BED8E8E14DD37AD0087BFDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BED8E9314DD37AD0087BFDE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BED8E9414DD37AD0087BFDE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5BED8E9914DD37AE0087BFDE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BED8E9A14DD37AE0087BFDE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5BED8EAA14DD37AE0087BFDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BED8EAB14DD37AE0087BFDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BED8EB014DD37AE0087BFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5BED8EB114DD37AE0087BFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5BED8EB314DD37AE0087BFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xcarchitron/xcarchitron-Prefix.pch";
+				INFOPLIST_FILE = "xcarchitron/xcarchitron-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BED8EB414DD37AE0087BFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xcarchitron/xcarchitron-Prefix.pch";
+				INFOPLIST_FILE = "xcarchitron/xcarchitron-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5BED8EB614DD37AE0087BFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/xcarchitron.app/Contents/MacOS/xcarchitron";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xcarchitron/xcarchitron-Prefix.pch";
+				INFOPLIST_FILE = "xcarchitronTests/xcarchitronTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5BED8EB714DD37AE0087BFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/xcarchitron.app/Contents/MacOS/xcarchitron";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xcarchitron/xcarchitron-Prefix.pch";
+				INFOPLIST_FILE = "xcarchitronTests/xcarchitronTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BED8E7A14DD37AD0087BFDE /* Build configuration list for PBXProject "xcarchitron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BED8EB014DD37AE0087BFDE /* Debug */,
+				5BED8EB114DD37AE0087BFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BED8EB214DD37AE0087BFDE /* Build configuration list for PBXNativeTarget "xcarchitron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BED8EB314DD37AE0087BFDE /* Debug */,
+				5BED8EB414DD37AE0087BFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BED8EB514DD37AE0087BFDE /* Build configuration list for PBXNativeTarget "xcarchitronTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BED8EB614DD37AE0087BFDE /* Debug */,
+				5BED8EB714DD37AE0087BFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BED8E7714DD37AD0087BFDE /* Project object */;
+}
