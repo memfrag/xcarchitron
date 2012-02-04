@@ -126,13 +126,13 @@
 				5BED8E9614DD37AD0087BFDE /* MEAppDelegate.h */,
 				5BED8E9714DD37AD0087BFDE /* MEAppDelegate.m */,
 				5BED8E9914DD37AE0087BFDE /* MainMenu.xib */,
-				5BED8E8B14DD37AD0087BFDE /* Supporting Files */,
 				5B3BEEAD14DD3A52005111AB /* MEXcodeArchives.h */,
 				5B3BEEAE14DD3A52005111AB /* MEXcodeArchives.m */,
 				5B3BEEB514DD3AE2005111AB /* MEXcodeArchive.h */,
 				5B3BEEB614DD3AE2005111AB /* MEXcodeArchive.m */,
 				5B3BEEB814DD3B4A005111AB /* MEProvisioningProfile.h */,
 				5B3BEEB914DD3B4A005111AB /* MEProvisioningProfile.m */,
+				5BED8E8B14DD37AD0087BFDE /* Supporting Files */,
 			);
 			path = xcarchitron;
 			sourceTree = "<group>";
