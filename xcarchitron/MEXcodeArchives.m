@@ -11,21 +11,24 @@
 
 @interface MEXcodeArchives ()
 
-@property (nonatomic, retain) NSArray *archives;
+@property (nonatomic, retain, readwrite) NSArray *archives;
 
-- (NSArray *)gatherArchives;
+@property (nonatomic, retain, readwrite) NSDictionary *archivesByBundleId;
+
+- (void)gatherArchives;
 
 @end
 
 @implementation MEXcodeArchives
 
 @synthesize archives = _archives;
+@synthesize archivesByBundleId = _archivesByBundleId;
 
 - (id)init
 {
     self = [super init];
     if (self) {
-        self.archives = [self gatherArchives];
+        [self gatherArchives];
     }
     
     return self;
@@ -37,7 +40,7 @@
     [super dealloc];
 }
 
-- (NSArray *)gatherArchives
+- (void)gatherArchives
 {
     NSString *archivesPath = [@"~/Library/Developer/Xcode/Archives/" stringByExpandingTildeInPath];
     NSURL *archivesUrl = [NSURL URLWithString:archivesPath];
@@ -50,6 +53,7 @@
                                                                 errorHandler:nil];
     
     NSMutableArray *archives = [NSMutableArray arrayWithCapacity:10];
+    NSMutableDictionary *archivesByBundleId = [NSMutableDictionary dictionaryWithCapacity:10];
     
     for (NSURL *archiveUrl in dirEnumerator)
     {
@@ -63,6 +67,15 @@
             if ([infoPlistUrl checkResourceIsReachableAndReturnError:nil]) {
                 MEXcodeArchive *archive = [[[MEXcodeArchive alloc] initWithURL:archiveUrl] autorelease];
                 [archives addObject:archive];
+                
+                NSMutableArray *bundleArchives = [archivesByBundleId objectForKey:archive.bundleIdentifier];
+                if (bundleArchives == nil) {
+                    bundleArchives = [NSMutableArray arrayWithCapacity:10];
+                    [archivesByBundleId setObject:bundleArchives forKey:archive.bundleIdentifier];
+                }
+                [bundleArchives addObject:archive];
+                
+                
                 NSLog(@"------------------------------------------");
                 NSLog(@" - URL: %@", archive.url);
                 NSLog(@" - Name: %@", archive.name);
@@ -91,7 +104,8 @@
     // Release the localFileManager.
     [localFileManager release];
     
-    return archives;
+    self.archives = archives;
+    self.archivesByBundleId = archivesByBundleId;
 }
 
 @end

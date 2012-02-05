@@ -10,4 +10,8 @@
 
 @interface MEXcodeArchives : NSObject
 
+@property (nonatomic, retain, readonly) NSArray *archives;
+
+@property (nonatomic, retain, readonly) NSDictionary *archivesByBundleId;
+
 @end
