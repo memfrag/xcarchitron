@@ -11,6 +11,24 @@
 		5B3BEEB714DD3AE2005111AB /* MEXcodeArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEB614DD3AE2005111AB /* MEXcodeArchive.m */; };
 		5B3BEEBA14DD3B4A005111AB /* MEProvisioningProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEB914DD3B4A005111AB /* MEProvisioningProfile.m */; };
 		5B3BEEBE14DD4150005111AB /* MEMemoryMappedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEBD14DD4150005111AB /* MEMemoryMappedFile.m */; };
+		5B3BEEC214DD42E8005111AB /* MEMachO.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEC114DD42E8005111AB /* MEMachO.m */; };
+		5B3BEEC514DD491B005111AB /* MEMachOSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEC414DD491B005111AB /* MEMachOSection.m */; };
+		5B3BEEC814DD97BB005111AB /* MEMachOLoadCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEC714DD97BB005111AB /* MEMachOLoadCommand.m */; };
+		5B3BEECC14DDA152005111AB /* MEMachOUUIDLoadCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEECB14DDA152005111AB /* MEMachOUUIDLoadCommand.m */; };
+		5B3BEECF14DDA17C005111AB /* MEMachOVersionMinLoadCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEECE14DDA17C005111AB /* MEMachOVersionMinLoadCommand.m */; };
+		5B3BEED214DDA18C005111AB /* MEMachOLoadCommandFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEED114DDA18C005111AB /* MEMachOLoadCommandFactory.m */; };
+		5B3BEED514DDB971005111AB /* MEMachOSymtabLoadCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEED414DDB971005111AB /* MEMachOSymtabLoadCommand.m */; };
+		5B3BEED814DDBF53005111AB /* MEMachOSymbolTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEED714DDBF53005111AB /* MEMachOSymbolTable.m */; };
+		5B3BEEDB14DDC5BC005111AB /* MEMachOSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEDA14DDC5BC005111AB /* MEMachOSymbol.m */; };
+		5B3BEEE014DDDEC9005111AB /* Dwarf2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEDF14DDDEC9005111AB /* Dwarf2.m */; };
+		5B3BEEE414DDE3AF005111AB /* Dwarf2Buffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEE314DDE3AF005111AB /* Dwarf2Buffer.m */; };
+		5B3BEEE714DDF0DE005111AB /* Dwarf2Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEE614DDF0DE005111AB /* Dwarf2Attribute.m */; };
+		5B3BEEEA14DDF11C005111AB /* Dwarf2Abbreviation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEE914DDF11B005111AB /* Dwarf2Abbreviation.m */; };
+		5B3BEEED14DDF3FC005111AB /* Dwarf2CompilationUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEEC14DDF3FC005111AB /* Dwarf2CompilationUnit.m */; };
+		5B3BEEF014DDFEA6005111AB /* Dwarf2FileLineInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEEF14DDFEA6005111AB /* Dwarf2FileLineInfo.m */; };
+		5B3BEEF314DE0144005111AB /* Dwarf2StateMachineRegisters.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEF214DE0143005111AB /* Dwarf2StateMachineRegisters.m */; };
+		5B3BEEF614DE043F005111AB /* Dwarf2FileEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEF514DE043E005111AB /* Dwarf2FileEntry.m */; };
+		5B3BEEF914DE04AA005111AB /* Dwarf2StatementProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEF814DE04A9005111AB /* Dwarf2StatementProgram.m */; };
 		5BED8E8514DD37AD0087BFDE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED8E8414DD37AD0087BFDE /* Cocoa.framework */; };
 		5BED8E8F14DD37AD0087BFDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BED8E8D14DD37AD0087BFDE /* InfoPlist.strings */; };
 		5BED8E9114DD37AD0087BFDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BED8E9014DD37AD0087BFDE /* main.m */; };
@@ -42,6 +60,43 @@
 		5B3BEEB914DD3B4A005111AB /* MEProvisioningProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEProvisioningProfile.m; sourceTree = "<group>"; };
 		5B3BEEBC14DD4150005111AB /* MEMemoryMappedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMemoryMappedFile.h; sourceTree = "<group>"; };
 		5B3BEEBD14DD4150005111AB /* MEMemoryMappedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMemoryMappedFile.m; sourceTree = "<group>"; };
+		5B3BEEC014DD42E8005111AB /* MEMachO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMachO.h; sourceTree = "<group>"; };
+		5B3BEEC114DD42E8005111AB /* MEMachO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMachO.m; sourceTree = "<group>"; };
+		5B3BEEC314DD491B005111AB /* MEMachOSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMachOSection.h; sourceTree = "<group>"; };
+		5B3BEEC414DD491B005111AB /* MEMachOSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMachOSection.m; sourceTree = "<group>"; };
+		5B3BEEC614DD97BB005111AB /* MEMachOLoadCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMachOLoadCommand.h; sourceTree = "<group>"; };
+		5B3BEEC714DD97BB005111AB /* MEMachOLoadCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMachOLoadCommand.m; sourceTree = "<group>"; };
+		5B3BEECA14DDA152005111AB /* MEMachOUUIDLoadCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMachOUUIDLoadCommand.h; sourceTree = "<group>"; };
+		5B3BEECB14DDA152005111AB /* MEMachOUUIDLoadCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMachOUUIDLoadCommand.m; sourceTree = "<group>"; };
+		5B3BEECD14DDA17C005111AB /* MEMachOVersionMinLoadCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMachOVersionMinLoadCommand.h; sourceTree = "<group>"; };
+		5B3BEECE14DDA17C005111AB /* MEMachOVersionMinLoadCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMachOVersionMinLoadCommand.m; sourceTree = "<group>"; };
+		5B3BEED014DDA18C005111AB /* MEMachOLoadCommandFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMachOLoadCommandFactory.h; sourceTree = "<group>"; };
+		5B3BEED114DDA18C005111AB /* MEMachOLoadCommandFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMachOLoadCommandFactory.m; sourceTree = "<group>"; };
+		5B3BEED314DDB971005111AB /* MEMachOSymtabLoadCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMachOSymtabLoadCommand.h; sourceTree = "<group>"; };
+		5B3BEED414DDB971005111AB /* MEMachOSymtabLoadCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMachOSymtabLoadCommand.m; sourceTree = "<group>"; };
+		5B3BEED614DDBF52005111AB /* MEMachOSymbolTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMachOSymbolTable.h; sourceTree = "<group>"; };
+		5B3BEED714DDBF53005111AB /* MEMachOSymbolTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMachOSymbolTable.m; sourceTree = "<group>"; };
+		5B3BEED914DDC5BC005111AB /* MEMachOSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMachOSymbol.h; sourceTree = "<group>"; };
+		5B3BEEDA14DDC5BC005111AB /* MEMachOSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMachOSymbol.m; sourceTree = "<group>"; };
+		5B3BEEDE14DDDEC9005111AB /* Dwarf2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dwarf2.h; sourceTree = "<group>"; };
+		5B3BEEDF14DDDEC9005111AB /* Dwarf2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dwarf2.m; sourceTree = "<group>"; };
+		5B3BEEE114DDDFCC005111AB /* Dwarf2Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dwarf2Constants.h; sourceTree = "<group>"; };
+		5B3BEEE214DDE3AF005111AB /* Dwarf2Buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dwarf2Buffer.h; sourceTree = "<group>"; };
+		5B3BEEE314DDE3AF005111AB /* Dwarf2Buffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dwarf2Buffer.m; sourceTree = "<group>"; };
+		5B3BEEE514DDF0DE005111AB /* Dwarf2Attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dwarf2Attribute.h; sourceTree = "<group>"; };
+		5B3BEEE614DDF0DE005111AB /* Dwarf2Attribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dwarf2Attribute.m; sourceTree = "<group>"; };
+		5B3BEEE814DDF11B005111AB /* Dwarf2Abbreviation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dwarf2Abbreviation.h; sourceTree = "<group>"; };
+		5B3BEEE914DDF11B005111AB /* Dwarf2Abbreviation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dwarf2Abbreviation.m; sourceTree = "<group>"; };
+		5B3BEEEB14DDF3FC005111AB /* Dwarf2CompilationUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dwarf2CompilationUnit.h; sourceTree = "<group>"; };
+		5B3BEEEC14DDF3FC005111AB /* Dwarf2CompilationUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dwarf2CompilationUnit.m; sourceTree = "<group>"; };
+		5B3BEEEE14DDFEA5005111AB /* Dwarf2FileLineInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dwarf2FileLineInfo.h; sourceTree = "<group>"; };
+		5B3BEEEF14DDFEA6005111AB /* Dwarf2FileLineInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dwarf2FileLineInfo.m; sourceTree = "<group>"; };
+		5B3BEEF114DE0143005111AB /* Dwarf2StateMachineRegisters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dwarf2StateMachineRegisters.h; sourceTree = "<group>"; };
+		5B3BEEF214DE0143005111AB /* Dwarf2StateMachineRegisters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dwarf2StateMachineRegisters.m; sourceTree = "<group>"; };
+		5B3BEEF414DE043E005111AB /* Dwarf2FileEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dwarf2FileEntry.h; sourceTree = "<group>"; };
+		5B3BEEF514DE043E005111AB /* Dwarf2FileEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dwarf2FileEntry.m; sourceTree = "<group>"; };
+		5B3BEEF714DE04A9005111AB /* Dwarf2StatementProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dwarf2StatementProgram.h; sourceTree = "<group>"; };
+		5B3BEEF814DE04A9005111AB /* Dwarf2StatementProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dwarf2StatementProgram.m; sourceTree = "<group>"; };
 		5BED8E8014DD37AD0087BFDE /* xcarchitron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcarchitron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BED8E8414DD37AD0087BFDE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5BED8E8714DD37AD0087BFDE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -97,6 +152,74 @@
 			name = Archive;
 			sourceTree = "<group>";
 		};
+		5B3BEEBF14DD42C1005111AB /* dSYM */ = {
+			isa = PBXGroup;
+			children = (
+				5B3BEEDD14DDDE16005111AB /* Dwarf */,
+				5B3BEEDC14DDDE06005111AB /* Mach-O */,
+			);
+			name = dSYM;
+			sourceTree = "<group>";
+		};
+		5B3BEEC914DDA137005111AB /* Load Commands */ = {
+			isa = PBXGroup;
+			children = (
+				5B3BEED014DDA18C005111AB /* MEMachOLoadCommandFactory.h */,
+				5B3BEED114DDA18C005111AB /* MEMachOLoadCommandFactory.m */,
+				5B3BEEC614DD97BB005111AB /* MEMachOLoadCommand.h */,
+				5B3BEEC714DD97BB005111AB /* MEMachOLoadCommand.m */,
+				5B3BEECA14DDA152005111AB /* MEMachOUUIDLoadCommand.h */,
+				5B3BEECB14DDA152005111AB /* MEMachOUUIDLoadCommand.m */,
+				5B3BEECD14DDA17C005111AB /* MEMachOVersionMinLoadCommand.h */,
+				5B3BEECE14DDA17C005111AB /* MEMachOVersionMinLoadCommand.m */,
+				5B3BEED314DDB971005111AB /* MEMachOSymtabLoadCommand.h */,
+				5B3BEED414DDB971005111AB /* MEMachOSymtabLoadCommand.m */,
+			);
+			name = "Load Commands";
+			sourceTree = "<group>";
+		};
+		5B3BEEDC14DDDE06005111AB /* Mach-O */ = {
+			isa = PBXGroup;
+			children = (
+				5B3BEEC014DD42E8005111AB /* MEMachO.h */,
+				5B3BEEC114DD42E8005111AB /* MEMachO.m */,
+				5B3BEEC314DD491B005111AB /* MEMachOSection.h */,
+				5B3BEEC414DD491B005111AB /* MEMachOSection.m */,
+				5B3BEED614DDBF52005111AB /* MEMachOSymbolTable.h */,
+				5B3BEED714DDBF53005111AB /* MEMachOSymbolTable.m */,
+				5B3BEED914DDC5BC005111AB /* MEMachOSymbol.h */,
+				5B3BEEDA14DDC5BC005111AB /* MEMachOSymbol.m */,
+				5B3BEEC914DDA137005111AB /* Load Commands */,
+			);
+			name = "Mach-O";
+			sourceTree = "<group>";
+		};
+		5B3BEEDD14DDDE16005111AB /* Dwarf */ = {
+			isa = PBXGroup;
+			children = (
+				5B3BEEDE14DDDEC9005111AB /* Dwarf2.h */,
+				5B3BEEDF14DDDEC9005111AB /* Dwarf2.m */,
+				5B3BEEE114DDDFCC005111AB /* Dwarf2Constants.h */,
+				5B3BEEE214DDE3AF005111AB /* Dwarf2Buffer.h */,
+				5B3BEEE314DDE3AF005111AB /* Dwarf2Buffer.m */,
+				5B3BEEE514DDF0DE005111AB /* Dwarf2Attribute.h */,
+				5B3BEEE614DDF0DE005111AB /* Dwarf2Attribute.m */,
+				5B3BEEE814DDF11B005111AB /* Dwarf2Abbreviation.h */,
+				5B3BEEE914DDF11B005111AB /* Dwarf2Abbreviation.m */,
+				5B3BEEEB14DDF3FC005111AB /* Dwarf2CompilationUnit.h */,
+				5B3BEEEC14DDF3FC005111AB /* Dwarf2CompilationUnit.m */,
+				5B3BEEEE14DDFEA5005111AB /* Dwarf2FileLineInfo.h */,
+				5B3BEEEF14DDFEA6005111AB /* Dwarf2FileLineInfo.m */,
+				5B3BEEF114DE0143005111AB /* Dwarf2StateMachineRegisters.h */,
+				5B3BEEF214DE0143005111AB /* Dwarf2StateMachineRegisters.m */,
+				5B3BEEF414DE043E005111AB /* Dwarf2FileEntry.h */,
+				5B3BEEF514DE043E005111AB /* Dwarf2FileEntry.m */,
+				5B3BEEF714DE04A9005111AB /* Dwarf2StatementProgram.h */,
+				5B3BEEF814DE04A9005111AB /* Dwarf2StatementProgram.m */,
+			);
+			name = Dwarf;
+			sourceTree = "<group>";
+		};
 		5BED8E7514DD37AD0087BFDE = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +262,7 @@
 		5BED8E8A14DD37AD0087BFDE /* xcarchitron */ = {
 			isa = PBXGroup;
 			children = (
+				5B3BEEBF14DD42C1005111AB /* dSYM */,
 				5B3BEEBB14DD3C81005111AB /* Archive */,
 				5BED8E9614DD37AD0087BFDE /* MEAppDelegate.h */,
 				5BED8E9714DD37AD0087BFDE /* MEAppDelegate.m */,
@@ -295,6 +419,24 @@
 				5B3BEEB714DD3AE2005111AB /* MEXcodeArchive.m in Sources */,
 				5B3BEEBA14DD3B4A005111AB /* MEProvisioningProfile.m in Sources */,
 				5B3BEEBE14DD4150005111AB /* MEMemoryMappedFile.m in Sources */,
+				5B3BEEC214DD42E8005111AB /* MEMachO.m in Sources */,
+				5B3BEEC514DD491B005111AB /* MEMachOSection.m in Sources */,
+				5B3BEEC814DD97BB005111AB /* MEMachOLoadCommand.m in Sources */,
+				5B3BEECC14DDA152005111AB /* MEMachOUUIDLoadCommand.m in Sources */,
+				5B3BEECF14DDA17C005111AB /* MEMachOVersionMinLoadCommand.m in Sources */,
+				5B3BEED214DDA18C005111AB /* MEMachOLoadCommandFactory.m in Sources */,
+				5B3BEED514DDB971005111AB /* MEMachOSymtabLoadCommand.m in Sources */,
+				5B3BEED814DDBF53005111AB /* MEMachOSymbolTable.m in Sources */,
+				5B3BEEDB14DDC5BC005111AB /* MEMachOSymbol.m in Sources */,
+				5B3BEEE014DDDEC9005111AB /* Dwarf2.m in Sources */,
+				5B3BEEE414DDE3AF005111AB /* Dwarf2Buffer.m in Sources */,
+				5B3BEEE714DDF0DE005111AB /* Dwarf2Attribute.m in Sources */,
+				5B3BEEEA14DDF11C005111AB /* Dwarf2Abbreviation.m in Sources */,
+				5B3BEEED14DDF3FC005111AB /* Dwarf2CompilationUnit.m in Sources */,
+				5B3BEEF014DDFEA6005111AB /* Dwarf2FileLineInfo.m in Sources */,
+				5B3BEEF314DE0144005111AB /* Dwarf2StateMachineRegisters.m in Sources */,
+				5B3BEEF614DE043F005111AB /* Dwarf2FileEntry.m in Sources */,
+				5B3BEEF914DE04AA005111AB /* Dwarf2StatementProgram.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
