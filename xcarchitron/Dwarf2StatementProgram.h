@@ -22,14 +22,14 @@
 @property (nonatomic, readonly) int8_t lineBase;
 @property (nonatomic, readonly) uint8_t lineRange;
 @property (nonatomic, readonly) uint8_t opcodeBase;
-@property (nonatomic, readonly) uint8_t *standardOpcodeLengths; // Array
-@property (nonatomic, readonly) NSArray *includeDirectories;
-@property (nonatomic, readonly) NSArray *files;
+//@property (nonatomic, readonly) uint8_t *standardOpcodeLengths; // Array
+//@property (nonatomic, readonly) NSArray *includeDirectories;
+//@property (nonatomic, readonly) NSArray *files;
 
 @property (nonatomic, retain, readonly) Dwarf2Buffer *programBuffer;
 @property (nonatomic, readonly) int32_t programLength;
 
-@property (nonatomic, retain) Dwarf2StateMachineRegisters *registersSnapshot;
+//@property (nonatomic, retain) Dwarf2StateMachineRegisters *registersSnapshot;
 
 - (id)initWithBuffer:(Dwarf2Buffer *)buffer;
 

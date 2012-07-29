@@ -7,10 +7,14 @@
 //
 
 #import "MEAppDelegate.h"
+#import "MEXcodeArchives.h"
+#import "MEMainWindowController.h"
 
-@implementation MEAppDelegate
-
-@synthesize window = _window;
+@implementation MEAppDelegate {
+@private
+    MEMainWindowController *mainWindowController;
+    MEXcodeArchives *archives;
+}
 
 - (void)dealloc
 {
@@ -19,7 +23,18 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    archives = [[MEXcodeArchives alloc] init];
+
+    mainWindowController = [[MEMainWindowController alloc] init];
+    [mainWindowController showWindow:mainWindowController.window];
+    
+}
+
+- (void)applicationWillTerminate:(NSNotification *)notification
+{
+    [mainWindowController release];
+    
+    [archives release];
 }
 
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender

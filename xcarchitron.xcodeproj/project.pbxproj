@@ -29,6 +29,8 @@
 		5B3BEEF314DE0144005111AB /* Dwarf2StateMachineRegisters.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEF214DE0143005111AB /* Dwarf2StateMachineRegisters.m */; };
 		5B3BEEF614DE043F005111AB /* Dwarf2FileEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEF514DE043E005111AB /* Dwarf2FileEntry.m */; };
 		5B3BEEF914DE04AA005111AB /* Dwarf2StatementProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3BEEF814DE04A9005111AB /* Dwarf2StatementProgram.m */; };
+		5B73425314DF35D000FDBD27 /* MEMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B73425214DF35D000FDBD27 /* MEMainWindowController.m */; };
+		5B73425514DF35FE00FDBD27 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B73425414DF35FE00FDBD27 /* MainWindow.xib */; };
 		5BED8E8514DD37AD0087BFDE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BED8E8414DD37AD0087BFDE /* Cocoa.framework */; };
 		5BED8E8F14DD37AD0087BFDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BED8E8D14DD37AD0087BFDE /* InfoPlist.strings */; };
 		5BED8E9114DD37AD0087BFDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BED8E9014DD37AD0087BFDE /* main.m */; };
@@ -97,6 +99,9 @@
 		5B3BEEF514DE043E005111AB /* Dwarf2FileEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dwarf2FileEntry.m; sourceTree = "<group>"; };
 		5B3BEEF714DE04A9005111AB /* Dwarf2StatementProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dwarf2StatementProgram.h; sourceTree = "<group>"; };
 		5B3BEEF814DE04A9005111AB /* Dwarf2StatementProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dwarf2StatementProgram.m; sourceTree = "<group>"; };
+		5B73425114DF35D000FDBD27 /* MEMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMainWindowController.h; sourceTree = "<group>"; };
+		5B73425214DF35D000FDBD27 /* MEMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMainWindowController.m; sourceTree = "<group>"; };
+		5B73425414DF35FE00FDBD27 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		5BED8E8014DD37AD0087BFDE /* xcarchitron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcarchitron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BED8E8414DD37AD0087BFDE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5BED8E8714DD37AD0087BFDE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -266,9 +271,12 @@
 				5B3BEEBB14DD3C81005111AB /* Archive */,
 				5BED8E9614DD37AD0087BFDE /* MEAppDelegate.h */,
 				5BED8E9714DD37AD0087BFDE /* MEAppDelegate.m */,
-				5BED8E9914DD37AE0087BFDE /* MainMenu.xib */,
+				5B73425114DF35D000FDBD27 /* MEMainWindowController.h */,
+				5B73425214DF35D000FDBD27 /* MEMainWindowController.m */,
+				5B73425414DF35FE00FDBD27 /* MainWindow.xib */,
 				5B3BEEBC14DD4150005111AB /* MEMemoryMappedFile.h */,
 				5B3BEEBD14DD4150005111AB /* MEMemoryMappedFile.m */,
+				5BED8E9914DD37AE0087BFDE /* MainMenu.xib */,
 				5BED8E8B14DD37AD0087BFDE /* Supporting Files */,
 			);
 			path = xcarchitron;
@@ -379,6 +387,7 @@
 				5BED8E8F14DD37AD0087BFDE /* InfoPlist.strings in Resources */,
 				5BED8E9514DD37AD0087BFDE /* Credits.rtf in Resources */,
 				5BED8E9B14DD37AE0087BFDE /* MainMenu.xib in Resources */,
+				5B73425514DF35FE00FDBD27 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +446,7 @@
 				5B3BEEF314DE0144005111AB /* Dwarf2StateMachineRegisters.m in Sources */,
 				5B3BEEF614DE043F005111AB /* Dwarf2FileEntry.m in Sources */,
 				5B3BEEF914DE04AA005111AB /* Dwarf2StatementProgram.m in Sources */,
+				5B73425314DF35D000FDBD27 /* MEMainWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
